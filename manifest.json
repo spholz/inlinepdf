@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "inlinepdf",
+    "version": "0.1",
+
+    "description": "Force pdf documents to be displayed inline",
+
+    "background": {
+        "scripts": ["background-script.js"],
+        "persistent": true
+    },
+
+    "permissions": [
+        "<all_urls>",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "inlinepdf@spholz"
+        }
+    }
+}
