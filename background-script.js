@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Sönke Holz <sholz8530@gmail.com>
+//
+// SPDX-License-Identifier: MIT
+
 function changeResponseHeader(details) {
     const responseHeaders = details.responseHeaders;
     const contentTypeHdr = responseHeaders.find(hdr => hdr.name.toLowerCase() == "content-type");
